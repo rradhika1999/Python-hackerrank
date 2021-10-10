@@ -1,1 +1,13 @@
-print("Hello, World!")
+print("Print using:\n 1 - Title Case \n 2 - ALL CAPS\n 3 - all small")
+x = input("Please enter your choice:\n")
+ 
+x = int(x)
+ 
+if x is 1:
+    print('Hello World')
+elif x is 2:
+    print('HELLO WORLD')
+elif x is 3:
+    print('hello world')
+else:
+    print('wrong choice')
