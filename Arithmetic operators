@@ -1,5 +1,18 @@
-a=int(raw_input())
-b=int(raw_input())
-print(a+b)
-print(a-b)
-print(a*b)
+a, b = input("Enter a two value: ").split()
+print ("number a:",a)
+print ("number b:",b)
+print("Print Functions:\n 1 - Addition\n 2 - Subraction\n 3 - Multiplication\n 4 - Division")
+x = input("Please enter your number:\n")
+ 
+x = int(x)
+ 
+if x is 1:
+    print('Addition:',int(a)+int(b))
+elif x is 2:
+    print('Subtraction:',int(a)-int(b))
+elif x is 3:
+    print('Multiplication:',int(a)*int(b))
+elif x is 4:
+    print('Division:',int(a)/int(b))
+else:
+    print('Enter Valid Input!')
